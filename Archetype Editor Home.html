@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>Archetype Editor Home</title>
+	<meta charset="utf-8">
+	<meta name="description" content="openEHR provides open source specifications and reference implementations of future proof EHR systems">
+	<meta name="keywords" content="archetypes, openEHR, EHR, electronic health record, electronic medical record, ADL, reference model, clinical models, healthcare, health informatics, medical informatics, EHR standards, ISO 18308, CEN 13606, health care software, open source software, knowledge modelling, patient-centric">
+	<meta name="author" content="Sam Heard, Thomas Beale">
+	<meta name="designer" content="Adriana Danilakova">
+	<meta name="rating" content="General">
+	<meta name="robots" content="All">
+	<meta name="revisit-after" content="15 days">
+	<meta name="msvalidate.01" content="8FFF7BE532A432C2B590526A24F0CBF9">
+	<meta name="yandex-verification" content="da5f926c2ac75b3c">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+
+
+	<link rel="stylesheet" href="Archetype%20Editor%20Home_files/bootstrap.css">
+	<link rel="stylesheet" href="Archetype%20Editor%20Home_files/basic.css" type="text/css">
+	<link rel="stylesheet" href="Archetype%20Editor%20Home_files/pages.css" type="text/css">
+	<link rel="stylesheet" href="Archetype%20Editor%20Home_files/font-awesome.css">
+
+
+	
+
+	<link rel="shortcut icon" href="https://www.openehr.org/static/img/favicon.png">
+	<link rel="home" href="https://www.openehr.org/">
+
+
+	<script async="" src="Archetype%20Editor%20Home_files/async-ads.js"></script><script type="text/javascript" async="" src="Archetype%20Editor%20Home_files/cse.js"></script><script src="Archetype%20Editor%20Home_files/jquery.js"></script>
+	<script src="Archetype%20Editor%20Home_files/bootstrap.js"></script>
+
+	<link href="Archetype%20Editor%20Home_files/select2.css" rel="stylesheet">
+	<script src="Archetype%20Editor%20Home_files/select2.js"></script>
+
+	<script src="Archetype%20Editor%20Home_files/menu_dropdown.js"></script>
+	<script src="Archetype%20Editor%20Home_files/paragraph_dropdown.js"></script>
+
+<script src="Archetype%20Editor%20Home_files/cse_element__en.js" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="Archetype%20Editor%20Home_files/defaulten.css"><link type="text/css" rel="stylesheet" href="Archetype%20Editor%20Home_files/minimalist.css"><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(119,119,119,1),rgba(119,119,119,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#BBBBBB}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#666666;background-color:#777777;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#FFFFFF;border-color:#FFFFFF;background-color:#333333}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#FFFFFF;border-color:#FFFFFF;background-color:#777777}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#000000;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#1D66AF}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#444444}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#444444}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#777777}.gsc-cursor-page{color:#1D66AF}a.gsc-trailing-more-results:link{color:#1D66AF}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#333333}.gs-webResult div.gs-visibleUrl{color:#000000}.gs-webResult div.gs-visibleUrl-short{color:#000000}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#FFFFFF;background-color:#777777;color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#FFFFFF;background-color:#333333;color:#FFFFFF}.gsc-webResult.gsc-result.gsc-promotion{border-color:#CCCCCC;background-color:#E6E6E6}.gsc-completion-title{color:#1D66AF}.gsc-completion-snippet{color:#333333}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#444444}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#00CC00}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#333333}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#00CC00}.gcsc-find-more-on-google{color:#1D66AF}.gcsc-find-more-on-google-magnifier{fill:#1D66AF}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-moz-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+
+<body>
+
+<div id="MainFrame">
+
+	<div id="TopPanelContainer">
+
+		<div id="TopPanel">
+
+			<div id="Logo">
+
+				<a href="https://www.openehr.org/"><img src="Archetype%20Editor%20Home_files/Logo.svg"></a>
+
+			</div>
+
+			<div id="Motto">
+
+				Open industry specifications, models and software for e-health
+
+
+			</div>
+
+			<div id="Utilities">
+
+				<a href="https://discourse.openehr.org/" target="_blank">Forums</a> | <a href="https://openehr.atlassian.net/wiki/spaces/resources/pages/4554774/FAQs+-+Frequently+Asked+Questions" target="_blank">Wiki</a> | <a href="https://www.openehr.org/digital_media/blogs">Blogs</a> | <a href="https://openehr.atlassian.net/secure/BrowseProjects.jspa?selectedCategory=all&amp;selectedProjectType=all" target="_blank">Jira</a> | <a href="https://www.openehr.org/ckm">CKM</a> |
+				 
+				 	<a href="https://www.openehr.org/accounts/">Accounts</a>
+				 
+
+				 <div id="Search">
+
+		 			<script>
+		 			  (function() {
+		 				var cx = '013258992131926468583:q3vo4hyneyu';
+		 				var gcse = document.createElement('script');
+		 				gcse.type = 'text/javascript';
+		 				gcse.async = true;
+		 				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		 				var s = document.getElementsByTagName('script')[0];
+		 				s.parentNode.insertBefore(gcse, s);
+		 			  })();
+		 			</script>
+		 			<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table class="gsc-search-box" cellspacing="0" cellpadding="0"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table style="width: 100%; padding: 0px;" id="gs_id50" class="gstl_50 gsc-input" cellspacing="0" cellpadding="0"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; background: rgb(255, 255, 255) url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) no-repeat scroll left center; outline: currentcolor none medium;" id="gsc-i-id1" dir="ltr" spellcheck="false"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;" title="Clear search box" role="button"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Web</div><span class="gs-spacer"> </span><div tabindex="0" aria-label="refinement" role="tab" class="gsc-tabHeader gsc-tabhInactive gsc-inline-block">Image</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-refinementsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table class="gsc-above-wrapper-area-container" cellspacing="0" cellpadding="0"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div><div class="gsc-resultsRoot gsc-tabData gsc-tabdInactive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>
+
+		 		</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<div id="TopMenuContainer">
+
+		<nav class="navbar navbar-default navbar-static">
+
+
+		<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+		</div>
+
+
+		<div id="TopMenu" class="collapse navbar-collapse js-navbar-collapse">
+
+		<ul class="nav navbar-nav">
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">About</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/about/what_is_openehr">What is openEHR?</a></li>
+						<li><a href="https://www.openehr.org/about/vision_and_mission">Vision and Mission</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/about/origins">Origins of openEHR</a></li>
+						<li><a href="https://www.openehr.org/about/history_2002_2018">History 2002 - 2018</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/about/logos">Logos</a></li>
+						<li><a href="https://www.openehr.org/about/contacts">Contacts</a></li>
+					</ul>
+				</li>
+
+			</ul>
+			</li>
+
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">Governance <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">Governance</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/governance/organisational_structure">Organisational Structure</a></li>
+						<li><a href="https://www.openehr.org/governance/cic_board">CIC Board</a></li>
+						<li><a href="https://www.openehr.org/governance/foundation_board">Foundation Board</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/governance/program_leads">Program Leads</a></li>
+						<li><a href="https://www.openehr.org/governance/ambassadors">Ambassadors</a></li>
+						<li><a href="https://www.openehr.org/governance/reports">Reports</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/governance/management_board">Management Board</a></li>
+						<li><a href="https://www.openehr.org/governance/intellectual_property">Intellectual Property</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
+				<ul class="dropdown-menu dropdown-menu-large row">
+					<li class="col-sm-4">
+
+						<ul>
+							<li class="dropdown-header"><a href="https://www.openehr.org/programs/specification/">Specification Program</a></li>
+							<li><a href="https://www.openehr.org/programs/specification/governance">Governance</a></li>
+							<li><a href="https://www.openehr.org/programs/specification/changeprocess">Change Process</a></li>
+							<li><a href="https://www.openehr.org/programs/specification/releasestrategy">Release Strategy</a></li>
+							<li><a href="https://www.openehr.org/programs/specification/editorialcommittee">SEC Members</a></li>
+							<br>
+							<li><a href="https://specifications.openehr.org/" target="_blank">Specifications Site</a></li>
+							<br>
+							<li><a href="https://openehr.atlassian.net/wiki/display/spec/Specifications+Home" target="_blank">Wiki</a></li>
+							<li><a href="https://openehrspecs.slack.com/" target="_blank">Slack</a></li>
+
+						</ul>
+					</li>
+					<li class="col-sm-4">
+
+						<ul>
+							<li class="dropdown-header"><a href="https://www.openehr.org/programs/clinicalmodels/">Clinical Models Program</a></li>
+							<li><a href="https://www.openehr.org/programs/clinicalmodels/governance">Governance</a></li>
+							<li><a href="https://www.openehr.org/programs/clinicalmodels/members">CMEG Members</a></li>
+							<br>
+							<li><a href="http://openehr.org/ckm/" target="_blank">openEHR CKM</a></li>
+							<li><a href="https://www.openehr.org/programs/clinicalmodels/nationalckms">National CKMs</a></li>
+							<br>
+							<li><a href="https://openehr.atlassian.net/wiki/display/healthmod/Clinical+Content+Models" target="_blank">Wiki</a></li>
+							<li><a href="#" target="_blank">Slack</a></li>
+						</ul>
+					</li>
+					<li class="col-sm-4">
+
+						<ul>
+							<li class="dropdown-header"><a href="https://www.openehr.org/programs/software/">Software Program</a></li>
+							<li><a href="https://www.openehr.org/programs/software/governance">Governance</a></li>
+							<li><a href="https://www.openehr.org/programs/software/members">SSG Members</a></li>
+							<br>
+							<li><a href="https://www.openehr.org/programs/software/issuetrackers">Issue Trackers</a></li>
+							<li><a href="https://github.com/openEHR" target="_blank">openEHR Github</a></li>
+							<br>
+							<li><a href="https://openehr.atlassian.net/wiki/display/dev/Developers+Home" target="_blank">Wiki</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">Community</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/community/membership/">Membership</a></li>
+						<li><a href="http://members.openehr.org/join-us" target="_blank">Join Us</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/community/industry_partners/">Industry Partners</a></li>
+						<li><a href="https://www.openehr.org/community/organisation_partners/">Organisation Partners</a></li>
+						<li><a href="https://www.openehr.org/community/professional_members/">Professional Members</a></li>
+						<li><a href="https://www.openehr.org/ckm/#userstatistics" target="_blank">Clinical Modellers (CKM)</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://discourse.openehr.org/" target="_blank">Discourse Forums</a></li>
+						<li><a href="https://openehr.atlassian.net/wiki/spacedirectory/view.action" target="_blank" title="Wiki">Wiki</a></li>
+						<li><a href="https://github.com/openEHR" target="_blank" title="Github">Github</a></li>
+						<li><a href="https://www.openehr.org/digital_media/blogs" title="Blogs">Blogs</a></li>
+						<li><a href="http://www.youtube.com/user/openehr?feature=results_main" target="_blank" title="YouTube">YouTube</a></li>
+						<li><a href="http://twitter.com/#!/openehr" target="_blank" title="Twitter">Twitter</a></li>
+						<li><a href="https://www.facebook.com/groups/openehr/" target="_blank" title="Facebook">Facebook</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">openEHR in use <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">OpenEHR in use</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/openehr_in_use/deployed_solutions/">Deployed solutions</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/openehr_in_use/jurisdictions/">Jurisdictions</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/openehr_in_use/research_projects/">Research projects</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">Products &amp; Tools <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">Products &amp; Tools</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/downloads/modellingtools/">Modelling Tools</a></li>
+						<li><a href="https://www.openehr.org/downloads/knowledge_management/">Knowledge Management</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/downloads/platform/">Platform</a></li>
+						<li><a href="https://www.openehr.org/downloads/applications/">Applications</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/downloads/guidelines_and_ds/">Guidelines and DS</a></li>
+						<li><a href="https://www.openehr.org/downloads/analytics/">Analytics</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header">Resources</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/resources/publications_zotero">Publications Zotero</a></li>
+						<li><a href="https://www.openehr.org/resources/learning_centre">Learning Centre</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/wiki/display/resources/FAQs+-+Frequently+Asked+Questions" title="FAQs" target="_blank">FAQs</a></li>
+						<li><a href="https://www.openehr.org/resources/white_papers">White Papers</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-4">
+					<ul>
+						<li><a href="https://www.openehr.org/resources/related_projects">Related Projects</a></li>
+					</ul>
+				</li>
+
+			</ul>
+			</li>
+
+
+			<li class="dropdown dropdown-large"><a href="https://www.openehr.org/news_events/" class="dropdown-toggle" data-toggle="dropdown">News &amp; Events <b class="caret"></b></a>
+			<ul class="dropdown-menu dropdown-menu-large row">
+				<li class="dropdown-header"><a href="https://www.openehr.org/news_events/">News &amp; Events</a></li>
+				<li class="col-sm-3">
+					<ul>
+						<li><a href="https://www.openehr.org/news_events/industry_news/">Industry News</a></li>
+						<li><a href="https://www.openehr.org/news_events/community_news/">Community News</a></li>
+						<li><a href="https://www.openehr.org/news_events/foundation_news/">openEHR News</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-3">
+					<ul>
+						<li><a href="https://www.openehr.org/news_events/events/">Events</a></li>
+						<li><a href="https://www.openehr.org/news_events/event_reports/">Event Reports</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-3">
+					<ul>
+						<li><a href="https://www.openehr.org/news_events/releases/">Releases</a></li>
+					</ul>
+				</li>
+				<li class="col-sm-3">
+					<ul>
+						<li><a href="https://www.openehr.org/news_events/clinical_news/">CKM Activity</a></li>
+					</ul>
+				</li>
+
+			</ul>
+			</li>
+
+
+
+		</ul>
+
+
+		<br class="clear">
+
+		</div>
+
+		</nav>
+	</div>
+
+	<div id="MainAreaContainer">
+
+
+		<div id="MainArea">
+
+		
+
+				<div id="SideMenu">
+	﻿<span>Archetype Editor</span>
+	<ul>
+		<li><a href="https://www.openehr.org/downloads/archetypeeditor/home" class="active">Home</a></li>
+		<li><a href="https://www.openehr.org/downloads/archetypeeditor/release_notes">Release Notes</a></li>
+		<li><a href="http://htmlpreview.github.io/?https://github.com/openEHR/arch_ed-dotnet/blob/master/ArchetypeEditor/Help/Menu/HowTo/archetype_editor.htm" target="_blank">Getting Started</a></li>
+	</ul>
+	<br>
+	<a href="https://www.openehr.org/downloads/modellingtools">&gt;&gt; Back to modelling tools</a>
+</div>
+
+
+				<div id="Content">
+				
+
+
+	<h1>Archetype Editor Home</h1>
+
+	<h2>Archetype Editor 2.8.972 beta release, 19 August 2015</h2>
+	<p><a href="https://www.openehr.org/downloads/archetypeeditor/release_notes">Release notes</a> - <a href="https://openehr.atlassian.net/projects/AEPR" target="_blank">Report an issue (Jira)</a></p>
+
+	<br>
+	<p><em>The Archetype Editor facilitates authoring of openEHR clinical and administrative archetypes in ADL 1.4 and XML format.</em></p>
+	<p>The editor is Unicode-enabled. It can work with archetypes in any 
+language. The editor itself has been translated into several languages, 
+including Danish, English, Farsi, German, Japanese, Russian, Spanish, 
+Swedish and Turkish. If you would like to include another language, 
+please let us know.</p>
+
+
+	<h2>News</h2>
+	<ul>
+		<li>On creating a new archetype, the version defaults to <b>v0</b> instead of <b>v1</b>.</li>
+		<li>Archetypes now have <b>namespacing and revision</b> details.</li>
+		<li><b>Cluster specialisation</b> now clones by copy rather than by reference.</li>
+		<li>Editing of the child element of a <b>cloned cluster</b> is allowed if the original child has already been specialised.</li>
+		<li>Unused term and constraint codes are removed from the ontology.</li>
+	</ul>
+
+
+	<h2>Download</h2>
+
+	<ul>
+		<li><a href="https://www.openehr.org/download_files/archetype_editor/archetype_editor_2.8.972.1-windows_32bit.exe">Latest release - 2.8.972 - 19 Aug 2015</a>.</li>
+		<li><a href="https://www.openehr.org/download_files/archetype_editor/archetype_editor_installer_windows-32bit.exe">Previous release - 2.2.905 - 27 Feb 2013</a>.</li>
+	</ul>
+
+	<p>Archetype Editor is available for Windows only. .NET 2.0 or higher is required.</p>
+
+	<h3>Source Code</h3>
+	<p>The source code can be accessed from the <a href="https://github.com/openEHR/arch_ed-dotnet" target="_blank">GitHub home page</a>.</p>
+
+	<h3>Archetypes</h3>
+	<p>You need archetypes. Where you can get them:</p>
+	<ul>
+		<li>You can write them yourself, or you may already have some in your organisation </li>
+		<li>The openEHR archetypes are available from the <a href="http://www.openehr.org/ckm" target="_blank">
+		Clinical Knowledge Manager</a> (CKM). Obtain a login in order to 
+download all the archetypes. This repository has over 250 archetypes, in
+ various stages of development by a large number of international 
+experts, and includes clinical and administrative archetypes.</li>
+	</ul>
+	<p>Archetypes can be put anywhere on your file system.</p>
+
+
+	<h2>Using the Archetype Editor</h2>
+
+	<h3>Using the Archetype Editor with the ADL Workbench</h3>
+	<p>One convenient way for clinical modellers with more of a technical 
+bent to use the Archetype Editor is in conjunction with the ADL 
+Workbench (AWB). There are two reasons you might want to do this:
+	firstly the AWB provides a tool-based view of all archetypes, rather 
+than the user having to rely on the file system explorer;
+	secondly, the AWB provides ADL 1.5 validation of all archetypes.
+	See the <a href="http://openehr.github.io/adl-tools/adl_workbench_guide.html">ADL Workbench help pages</a> for how to configure this.</p>
+
+	<h3>(Other topics)</h3>
+	<p>Detailed help pages for the Archetype Editor are under construction.</p>
+
+	<h2>Support</h2>
+	<p>The best way to get help with the Archetype Editor and/or creating, viewing archetypes, is to post questions on the <a href="http://lists.openehr.org/mailman/listinfo/openehr-clinical_lists.openehr.org">openEHR Clinical Mailing list</a>.</p>
+
+
+	<h2>Reporting Issues</h2>
+	<p>Please report issues on the openEHR <a href="https://openehr.atlassian.net/projects/AEPR" target="_blank">Archetype Editor problem report tracker (Jira)</a>.
+	It really helps us to help you if you report a problem! Please try to 
+note down the steps taken to reproduce the problem, which will greatly 
+help us in fixing it.</p>
+
+
+
+				</div>
+
+		</div>
+	<br class="clear">
+	</div>
+
+
+
+	<div id="BottomPanelContainer">
+
+
+		<div id="BottomPanel">
+
+			<div id="WebLinks">
+				<a href="https://www.openehr.org/using_the_site/terms_of_use">Terms of use</a> | <a href="https://www.openehr.org/using_the_site/privacy_policy">Privacy policy</a> | <a href="https://www.openehr.org/using_the_site/publishing_content">Publishing Content</a> |
+				<a href="https://www.openehr.org/using_the_site/localisation">Localisation</a> | <a href="https://www.openehr.org/using_the_site/feedback">Feedback</a> | <a href="mailto:webmaster@openehr.org">Webmaster</a><br>
+				<span>Copyright © 2021 openEHR Foundation. All rights reserved</span><br>
+				<img src="Archetype%20Editor%20Home_files/logo_bottom.png" style="padding:10px 0;" width="100"><br>
+			</div>
+
+			<div id="Acknowledgements">
+				<div class="text-right">
+					<a href="https://discourse.openehr.org/" target="_blank" class="fa fa-comment" title="Discourse Forums"></a>
+					<a href="https://www.openehr.org/wiki" target="_blank" class="fa fa-wikipedia-w" title="Wiki"></a>
+					<a href="https://github.com/openEHR" target="_blank" class="fa fa-github" title="Github"></a>
+					<a href="https://www.openehr.org/digital_media/blogs" class="fa fa-newspaper-o" title="Blogs"></a>
+					<a href="https://www.youtube.com/openEHR" target="_blank" class="fa fa-youtube" title="YouTube"></a>
+					<a href="http://twitter.com/#!/openehr" target="_blank" class="fa fa-twitter" title="Twitter"></a>
+					<a href="https://www.facebook.com/groups/openehr/" target="_blank" class="fa fa-facebook" title="Facebook"></a>
+				<br>
+				<span>Acknowledgements: <a href="https://www.atlassian.com/" target="_blank">Atlassian</a> (Jira, Confluence) | <a href="https://www.nomagic.com/" target="_blank">NoMagic</a> (MagicDraw UML) <br> <a href="http://asciidoctor.org/" target="_blank">AsciiDoctor</a> (publishing) | <a href="https://github.com/" target="_blank">GitHub</a> (DVCS) | <a href="https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29" target="_blank">LAMP</a> dev community</span>
+
+				</div>
+
+			</div>
+
+			<br class="clear">
+		</div>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var dropdown=new MENU.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+
+
+
+<script>$('.select_field_class').select2( { placeholder: "Select here", maximumSelectionSize: 100  } );</script>
+
+
+
+
+<table style="width: 128px; display: none; top: 66px; left: 686px; position: absolute;" class="gstl_50 gssb_c" cellspacing="0" cellpadding="0"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>
